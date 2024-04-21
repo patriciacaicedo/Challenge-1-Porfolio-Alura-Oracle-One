@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+# curriculum
+--------------------------------------------------------------*/
+.Curriculumgeneral{
+    background: #1a3277;
+    font-family: "Playfair", sans-serif;
+    color: rgb(204, 219, 232);
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  
+  .curriculum .curriculum-titulo {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #e35f2b;
+  }
+  
+  .curriculum .curriculum-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgba(255, 255, 255, 0.95);
+    position: relative;
+  }
+  
+  .curriculum .curriculum-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(204, 219, 232);
+    margin-bottom: 10px;
+  }
+  
+  .curriculum .curriculum-item h5 {
+    font-size: 16px;
+    background: rgba(180, 231, 245, 0.353);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .curriculum .curriculum-item ul {
+    padding-left: 20px;
+  }
+  
+  .curriculum .curriculum-item ul li {
+    padding-bottom: 10px;
+  }
+    .curriculum .curriculum-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .curriculum .curriculum-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #a79ce6;
+    border: 2px solid #e5e5e7;
+  }
+  
